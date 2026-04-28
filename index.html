@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luccas Eduardo | Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-primary": "#05297a", "surface-bright": "#2f3a4c", "on-error": "#690005", "inverse-surface": "#d8e3fb", "on-tertiary-fixed": "#23005c", "error-container": "#93000a", "inverse-primary": "#4059aa", "surface-container-low": "#111c2d", "surface-container": "#152031", "tertiary-container": "#4c1da5", "on-primary-fixed-variant": "#264191", "surface-variant": "#2a3548", "surface-tint": "#b6c4ff", secondary: "#c4c7c9", "surface-container-lowest": "#040e1f", "secondary-fixed-dim": "#c4c7c9", background: "#081425", "on-secondary-container": "#b6b9bb", "tertiary-fixed": "#e9ddff", "on-secondary-fixed-variant": "#444749", error: "#ffb4ab", "on-tertiary-fixed-variant": "#5327ac", "outline-variant": "#444651", "on-secondary": "#2d3133", primary: "#b6c4ff", "surface-container-high": "#1f2a3c", "tertiary-fixed-dim": "#d0bcff", "on-surface": "#d8e3fb", "on-surface-variant": "#c5c5d3", outline: "#8f909d", "on-tertiary": "#3b0091", surface: "#081425", "primary-fixed-dim": "#b6c4ff", "on-primary-container": "#90a8ff", "secondary-fixed": "#e0e3e5", "on-background": "#d8e3fb", "on-tertiary-container": "#b89cff", "primary-container": "#1e3a8a", "primary-fixed": "#dce1ff", "on-secondary-fixed": "#191c1e", "surface-container-highest": "#2a3548", "inverse-on-surface": "#263143", tertiary: "#d0bcff", "secondary-container": "#464a4b", "on-error-container": "#ffdad6", "on-primary-fixed": "#00164e", "surface-dim": "#081425"}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}, spacing: {base: "8px", "container-max": "1200px", gutter: "24px", "section-padding": "80px"}, fontFamily: {"headline-lg": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Inter"], "label-sm": ["Inter"], "label-md": ["Inter"], "headline-xl": ["Inter"], "body-md": ["Inter"]}, fontSize: {"headline-lg": ["36px", {lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], "headline-md": ["24px", {lineHeight: "1.3", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "1", letterSpacing: "0.05em", fontWeight: "600"}], "label-md": ["14px", {lineHeight: "1.4", letterSpacing: "0.02em", fontWeight: "500"}], "headline-xl": ["60px", {lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}]}}}};</script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .technical-grid-pattern {
+            background-image: linear-gradient(#e2e8f0 1px, transparent 1px), linear-gradient(90deg, #e2e8f0 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-16">
+<span class="text-xl font-bold text-blue-900">Luccas Eduardo</span>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-sans text-sm font-medium tracking-tight text-blue-800 border-b-2 border-blue-800 pb-1 transition-colors" href="#sobre">Sobre</a>
+<a class="font-sans text-sm font-medium tracking-tight text-slate-600 hover:text-blue-900 transition-colors" href="#experiencia">Experiência</a>
+<a class="font-sans text-sm font-medium tracking-tight text-slate-600 hover:text-blue-900 transition-colors" href="#projetos">Projetos</a>
+<a class="font-sans text-sm font-medium tracking-tight text-slate-600 hover:text-blue-900 transition-colors" href="#habilidades">Habilidades</a>
+<a class="font-sans text-sm font-medium tracking-tight text-slate-600 hover:text-blue-900 transition-colors" href="#contato">Contato</a>
+</div>
+<div class="flex gap-4 items-center">
+<a class="text-blue-900 hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined" data-icon="link">link</span>
+<span class="font-sans text-sm font-medium">LinkedIn</span>
+</a>
+<a class="text-blue-900 hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined" data-icon="terminal">terminal</span>
+<span class="font-sans text-sm font-medium">GitHub</span>
+</a>
+</div>
+</div>
+</nav>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-32 pb-24 border-b border-slate-200">
+<div class="absolute inset-0 technical-grid-pattern opacity-20 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="max-w-3xl">
+<h1 class="font-headline-xl text-headline-xl text-primary mb-6">Luccas Eduardo Aquino Pereira</h1>
+<p class="font-headline-md text-headline-md text-secondary mb-8">
+                        Desenvolvedor de Software | Especialista em Manutenção de Hardware
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-primary text-on-primary px-8 py-3 font-label-md text-label-md rounded-lg hover:opacity-90 transition-all flex items-center gap-2" href="#contato">
+                            Entrar em Contato
+                            <span class="material-symbols-outlined text-[20px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a class="border border-outline text-on-background px-8 py-3 font-label-md text-label-md rounded-lg hover:bg-surface-container transition-all" href="#">
+                            Ver Currículo
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Sobre Mim Section -->
+<section class="py-20 bg-surface-bright" id="sobre">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-4 block">A Trajetória</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Unindo o físico e o digital</h2>
+<div class="space-y-4 text-secondary leading-relaxed">
+<p class="font-body-lg text-body-lg">
+                                Minha jornada na tecnologia começou aos 16 anos, mergulhando no mundo da manutenção de hardware. O que começou como curiosidade técnica evoluiu para uma base sólida de infraestrutura e precisão física.
+                            </p>
+<p class="font-body-md text-body-md">
+                                Atualmente no 5º semestre de ADS na UCDB, estou construindo a ponte entre o hardware e o software de alto desempenho. Minha abordagem é focada na eficiência estrutural: entendo como a máquina opera para escrever códigos que melhor aproveitem seu potencial.
+                            </p>
+</div>
+</div>
+<div class="md:col-span-5">
+<div class="aspect-square bg-surface-container rounded-xl border border-outline-variant relative overflow-hidden">
+<img alt="Hardware Engineering" class="object-cover w-full h-full opacity-80 mix-blend-multiply" data-alt="Close-up of a circuit board with soft blue technical lighting, shallow depth of field, high-tech engineering aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuDRVEMPd33KyOCbJvXrgjBh2LKzj3HJYleqm7pX_V5B3bZ-6dYvQMcaI_kKY4mWSwL6ob0rV5K3aMHEPGcggkKM45NYwBrPzRGVsSGSmJh63nIpJMtKadbKBZ5WWQLxXRg0I85EU_A8VDrfFAbm4oo6Ks9G1pdm3ypgR2vfJ9awrMq9PPvuaILpEU95_CXN9tGf81blH-63YYtkiRr5pu5eUJGv2nCwmO0xw6xGwNCgbzsoGoszXjMhXPYnKCClMmS8vXJuU4HTQ"/>
+<div class="absolute bottom-4 left-4 right-4 p-4 bg-white/80 backdrop-blur-sm rounded-lg border border-slate-200">
+<span class="font-label-md text-label-md text-primary">Campo Grande, MS</span>
+<p class="text-[12px] text-slate-500">Disponibilidade: Turno Vespertino</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experiência Section -->
+<section class="py-20 border-y border-slate-200 bg-white" id="experiencia">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest mb-4 block">Carreira &amp; Educação</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Experiência Profissional</h2>
+</div>
+<div class="h-px flex-grow bg-slate-200 mx-8 hidden md:block mb-4"></div>
+</div>
+<div class="space-y-8">
+<div class="p-8 border border-slate-200 rounded-xl hover:border-primary-container transition-colors group">
+<div class="flex flex-col md:flex-row justify-between md:items-center mb-4">
+<h3 class="font-headline-md text-headline-md text-primary">Manutenção de Hardware</h3>
+<span class="font-label-md text-label-md text-secondary">Freelance | 2022 — Presente</span>
+</div>
+<p class="text-secondary max-w-3xl">Diagnóstico, reparo e otimização de sistemas computacionais. Foco em infraestrutura de TI e manutenção preventiva para clientes corporativos e residenciais.</p>
+</div>
+<div class="p-8 border border-slate-200 rounded-xl hover:border-primary-container transition-colors group">
+<div class="flex flex-col md:flex-row justify-between md:items-center mb-4">
+<h3 class="font-headline-md text-headline-md text-primary">Análise e Desenvolvimento de Sistemas</h3>
+<span class="font-label-md text-label-md text-secondary">UCDB | 5º Semestre</span>
+</div>
+<p class="text-secondary max-w-3xl">Formação acadêmica focada em arquitetura de software, bancos de dados relacionais e algoritmos de alta performance.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Projetos Section -->
+<section class="py-20 bg-surface-bright" id="projetos">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-12">Projetos em Destaque</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Project Card 1 -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-sm transition-all group">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="CRUD Energético" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern data dashboard visualization with clean charts and minimalist interface in blue and white tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcD80G77fWvN6yszHwh-wRWKdrQW6rGa5wj2QtMRsjQOHkkLRISG3fBh4WrWrmBBvFuIOoP9ccTbPjIu0ZNY70jOAZ9jjGgoRmRBXQMEbEH7fgvCmvK6ZgIR_7zIjTTQpvt1sgTHnNcM5aej6J6Yx8hztWs0VR-RJtTF68brtrxwKAm4eK9msvc7GWOis6k_TasxoaCZfzgtZSWkAcb-VdZJQZ8awqdFNsPHyT9SG57YLAf4uI_lOL6vt_00bMWS1c7Q9slTVHmPs"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md text-primary mb-2">CRUD Energético</h4>
+<p class="text-secondary text-sm mb-4">Sistema de gestão energética com integração robusta de banco de dados para monitoramento de consumo.</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">Database</span>
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">Management</span>
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-sm transition-all group">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="Sistema de Livraria" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist bookstore aesthetic with organized shelves and soft lighting, professional and clean atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcEr6t6ResAhhewSCxk0CrnydACExwoRtQCvrdltu66TF6Ag8pU3rRWx1Wxq_ye0qR6hdTRAsb4nQPRNjxUE9az85nebug2JIAv3Kq5XugScIfG0EaCsuV_coxGui41aFkQzr8ay9Qq5JIgbDaOx6O6A9k8508dZHmgVRz7_AMMGZ95ElQ0nQNsKHiHsMwarlCxPGmPxjXTJo8gmZ1dHkQ5piJFjYdkFjsdML3_OJ1kTttsRYjJxAhwzrbXAUh16OHjm4ud68vl6o"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md text-primary mb-2">Sistema de Livraria</h4>
+<p class="text-secondary text-sm mb-4">Desenvolvimento em PostgreSQL focado em integridade de dados, transações complexas e manipulação eficiente.</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">PostgreSQL</span>
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">Backend</span>
+</div>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-sm transition-all group">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="E-commerce FuelPets" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern mobile responsive web design showing a pet store interface with high contrast and clean typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUUKzSOLJxkG8MGxrf3zPDJK-DWlZolBR2V5mWVnMWCop1WV9Gc474SZkYL5OByWJKXW2PgjjykUoOJXAj2nIVp1Htia5Iz2cwl1-V7lGtLDVM_tO4oDiDoEwqkrc_1OPLN2T3ls677XbcWcLwE9vNdV5wdabej97lnfLTIunyaAXv92T3wgEWZGejMvCVVvh34jdSAyuFj0qeQjpFG00Jzn2BpItF-xFYUsU-xKh1SAcfHKGHj2wJHrTUUiNs8-jlqQU1LT94UwQ"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md text-primary mb-2">E-commerce FuelPets</h4>
+<p class="text-secondary text-sm mb-4">Interface front-end responsiva construída com fundamentos de UI/UX e performance web.</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">HTML/CSS/JS</span>
+<span class="bg-surface-container px-3 py-1 text-[10px] uppercase font-bold text-secondary rounded">Frontend</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Habilidades & Soft Skills Section -->
+<section class="py-20 bg-white" id="habilidades">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<!-- Tech Stack -->
+<div class="lg:col-span-2">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">Habilidades Técnicas</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="code">code</span>
+                                    Linguagens
+                                </h4>
+<div class="flex flex-wrap gap-2">
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">C / C++</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Java</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">R (Estatística)</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">PostgreSQL</span>
+</div>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="psychology">psychology</span>
+                                    IA &amp; Dados
+                                </h4>
+<div class="flex flex-wrap gap-2">
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Machine Learning</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Prompting</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Análise de Dados</span>
+</div>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="settings_input_component">settings_input_component</span>
+                                    Hardware
+                                </h4>
+<div class="flex flex-wrap gap-2">
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Manutenção</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Infraestrutura</span>
+<span class="bg-slate-50 border border-slate-200 px-3 py-2 rounded font-body-md text-on-surface w-full">Sistemas TI</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Soft Skills -->
+<div class="bg-surface-container-low p-8 rounded-xl border border-slate-200">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-6">Soft Skills</h2>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="search_check">search_check</span>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface">Problem-solving</h5>
+<p class="text-secondary text-sm">Resolução analítica de falhas complexas em sistemas e hardware.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="trending_up">trending_up</span>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface">Continuous Learning</h5>
+<p class="text-secondary text-sm">Adaptação constante às novas tecnologias de mercado.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Contato Section -->
+<section class="py-20 border-t border-slate-200" id="contato">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-8">Vamos construir algo juntos?</h2>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</div>
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Email</p>
+<p class="font-body-md text-on-surface">contato@luccaseduardo.com.br</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+</div>
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Telefone</p>
+<p class="font-body-md text-on-surface">+55 67 9XXXX-XXXX</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+</div>
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-wider">Localização</p>
+<p class="font-body-md text-on-surface">Campo Grande - MS</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<form class="space-y-4">
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Nome</label>
+<input class="w-full bg-white border border-outline-variant rounded-lg p-3 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Email</label>
+<input class="w-full bg-white border border-outline-variant rounded-lg p-3 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all" type="email"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Mensagem</label>
+<textarea class="w-full bg-white border border-outline-variant rounded-lg p-3 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-label-md text-label-md hover:opacity-90 transition-all" type="button">Enviar Mensagem</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-6 mt-20 border-t border-slate-200 bg-slate-50">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+<p class="font-sans text-sm text-slate-500">© 2024 Luccas Eduardo Aquino Pereira. Disponível para novos projetos.</p>
+<div class="flex gap-6">
+<a class="font-sans text-sm text-slate-500 hover:text-blue-700 hover:underline decoration-blue-800/30 underline-offset-4" href="#">Email</a>
+<a class="font-sans text-sm text-slate-500 hover:text-blue-700 hover:underline decoration-blue-800/30 underline-offset-4" href="#">Phone</a>
+<a class="font-sans text-sm text-slate-500 hover:text-blue-700 hover:underline decoration-blue-800/30 underline-offset-4" href="#">Location</a>
+</div>
+</div>
+</footer>
+</body></html>
